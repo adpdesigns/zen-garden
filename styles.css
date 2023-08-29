@@ -1,0 +1,359 @@
+body{
+    background-color: #BFC0C4;
+    font-family: 'Irish Grover', cursive;
+    color: #343E36;
+}
+
+/*providing padding and margin to the entire website content*/
+
+.page-wrapper{
+    padding: 20px;
+    margin: 10px;
+}
+
+
+/*styling title of the website*/
+
+h1{
+    font-family: 'Henny Penny', cursive;
+    text-align: center;
+    font-size: 40px;
+    color:#343E36;
+    text-shadow: 0 0 3px #130D0F, 0 0 8px #AD8446 ;
+}
+
+h2{
+    text-align: center;
+    color: #130D0F;
+}
+
+h3{
+    color: #130D0F;
+}
+
+
+/*styling the summary part*/
+
+.summary{
+    width: 100%;
+    height: 120px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+
+    /* adding roses on both sides of the paragraph */
+
+    background-image: url('img/rose-left.svg'), url('img/rose-right.svg');
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: left, right;
+}
+
+
+a{
+    text-decoration: none;
+    color: #130D0F;
+    font-weight: bold;
+}
+
+
+/*keeping the preamble content left aligned*/
+
+.preamble{
+    margin: 5px;
+    padding: 10px;
+    text-align: left;
+}
+
+
+#zen-supporting{
+    /*adding spiderweb image below the explaination paragraph*/
+
+    background-image: url('img/spiderweb.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+   
+}
+
+/*keeping the explaination content right aligned*/
+
+.explanation{
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    height: 150px;
+    text-align: right;
+}
+
+
+.participation{
+    width: 30%;
+    background-color:#2A2C46 ;
+    color: #FFFFFF;
+    padding: 10px;
+    margin: 20px;
+
+    /* making the participation div tilt by 20 degrees*/
+    position: relative;
+    transform: rotate(20deg);
+
+    /* making the card touch the spider thread*/
+    left: 70px;
+    top: 500px;
+}
+
+.participation h3{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+.participation a{
+    color: #C4D8D7;
+}
+
+.benefits{
+    width: 30%;
+    background-color:#2A2C46 ;
+    color: #FFFFFF;
+    padding: 10px;
+    margin: 20px;
+
+    /* making the participation div tilt by -20 degrees*/
+
+    position: relative;
+    transform: rotate(-20deg);
+
+    /* making the card touch the spider thread*/
+    top: 180px;
+    left: 700px;
+}
+
+
+.benefits h3{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+.benefits a{
+    color: #C4D8D7;
+}
+
+
+.requirements{
+    width: 30%;
+    background-color:#2A2C46 ;
+    color: #FFFFFF;
+    padding: 10px;
+    margin: 20px;
+
+    /* making the participation div tilt by 10 degrees*/
+    position: relative;
+    transform: rotate(10deg);
+
+    /* making the card touch the spider thread*/
+    left: 400px;
+    top: 250px;
+}
+
+.requirements h3{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+.requirements a{
+    color: #C4D8D7;
+}
+
+
+.sidebar{
+    height: 500px;
+    margin-top: 230px;
+
+    /*adding trees on both sides*/
+    background-image: url('img/tree-left.svg'), url('img/tree-right.svg');
+    background-repeat: no-repeat;
+    background-position: left, right;
+    position: relative;    
+}
+
+/*placing select design on right side*/
+
+#design-selection{
+    text-align: right;
+    position: absolute;
+    top:180px;
+    right: 150px;
+}
+
+
+#design-selection li{
+    list-style-type: none;
+}
+
+#design-archives{
+    height: 400px;
+    background-image: url('img/grave.svg');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    margin-left: 60px;
+}
+
+#design-archives h3{
+    display: none;
+}
+
+#design-archives li{
+    list-style-type: none;
+}
+
+/* placing new design on the bottom of the grave*/
+
+.next{
+    position: absolute;
+    left: 240px;
+    top: 330px;
+    transform: rotate(-10deg);
+}
+
+/* placing new design on the bottom of the grave*/
+
+.viewall{
+    position: absolute;
+    left: 510px;
+    top: 308px;
+    transform: rotate(-10deg);
+}
+
+
+/*placing the footer on the bottom of the webpage*/
+
+footer{
+    background-image: url('img/hand-left.svg'), url('img/hand-right.svg');
+    background-repeat: no-repeat;
+    background-position: left, right;
+    background-size: 100px;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #130D0F;  
+    top: 1550px;
+    bottom: 0;
+    text-align: center;
+}
+
+
+footer a{
+    color: #BFC0C4;
+    padding: 20px;
+    position: relative;
+    top: 45px;
+}
+
+
+
+
+#zen-resources{
+    width: 100%;
+    height: 820px;
+    background-image: url('img/flowerpot.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px;
+    margin-top: 80px;
+}
+
+
+#zen-resources li{
+    list-style-type: none;
+    
+}
+
+#zen-resources a{
+    color: #810400;
+}
+
+#zen-resources h3{
+    text-align: center;
+    position: relative;
+}
+
+/*placing rescources link on top of the flower steams*/
+
+.view-css{
+    position: absolute;
+    left: 300px;
+    top: 620px;
+    transform: rotate(-5deg);
+}
+
+/*making view this design's css increase in size and rotate in the opposite direction */
+
+.view-css:hover{
+    transform: rotate(5deg);
+    font-size: 20px;
+}
+
+
+.css-resources{
+    position: absolute;
+    left: 500px;
+    top: 610px;
+    transform: rotate(10deg);
+}
+
+/*making css resources increase in size and rotate in the opposite direction */
+
+.css-resources:hover{
+    transform: rotate(-10deg);
+    font-size: 20px;
+}
+
+.zen-faq{
+    position: absolute;
+    left: 620px;
+    top: 700px;
+    transform: rotate(-10deg);
+}
+
+/*making faqs increase in size and rotate in the opposite direction */
+
+.zen-faq:hover{
+    transform: rotate(10deg);
+    font-size: 20px;
+}
+
+.zen-submit{
+    position: absolute;
+    left: 630px;
+    top: 640px;
+    transform: rotate(-5deg);
+}
+
+/*making submit the design increase in size and rotate in the opposite direction */
+
+.zen-submit:hover{
+    transform: rotate(5deg);
+    font-size: 20px;
+}
+
+.zen-translations{
+    position: absolute;
+    left: 800px;
+    top: 640px;
+    transform: rotate(25deg);
+} 
+
+/*making submit the design increase in size and rotate in the opposite direction */
+
+.zen-translations:hover{
+    transform: rotate(-25deg);
+    font-size: 20px;
+}
